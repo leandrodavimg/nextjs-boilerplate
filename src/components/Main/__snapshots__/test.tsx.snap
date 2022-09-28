@@ -1,9 +1,68 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the reading 1`] = `
-<main>
-  <h1>
-    React avançado!!!
-  </h1>
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+<main
+  class="c0"
+>
+  <label
+    class="chakra-switch css-16pgy8f"
+  >
+    <input
+      class="chakra-switch__input"
+      style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; width: 1px; margin: -1px; padding: 0px; overflow: hidden; white-space: nowrap; position: absolute;"
+      type="checkbox"
+      value=""
+    />
+    <span
+      aria-hidden="true"
+      class="chakra-switch__track css-14qxnv8"
+    >
+      <span
+        class="chakra-switch__thumb css-0"
+      />
+    </span>
+  </label>
+  <span>
+    Dark
+  </span>
+  <br />
+  <p
+    class="chakra-text css-0"
+  >
+    Boilerplate - Leandro Freitas
+  </p>
+  <br />
+  <h2
+    class="chakra-heading css-xoukue"
+  >
+    Font Passion Conflict
+  </h2>
+  <br />
+  <button
+    class="chakra-button css-4xx2wk"
+    type="button"
+  >
+    toast
+  </button>
 </main>
 `;

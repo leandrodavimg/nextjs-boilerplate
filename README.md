@@ -15,6 +15,7 @@ yarn create next-app -e https://github.com/leandrodavimg/nextjs-boilerplate
 * Styled-components
 * Storybook
 * Plop - generate files
+* ChakraUI 
 
 ## Generate new components
 ```bash
